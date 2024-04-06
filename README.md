@@ -31,6 +31,7 @@ Whittle is a versatile tool designed for refining large wordlists into more mana
 ## Help Page
 
 <code>
+  
 usage: whittle.py [-h] [-m MINIMUM_LENGTH] [-M MAXIMUM_LENGTH] [-c] [--sam-account SAM_ACCOUNT [SAM_ACCOUNT ...]]
                   [--display-name DISPLAY_NAME [DISPLAY_NAME ...]] -w WORDLIST [-o OUTPUT] [-v]
 
@@ -41,7 +42,7 @@ usage: whittle.py [-h] [-m MINIMUM_LENGTH] [-M MAXIMUM_LENGTH] [-c] [--sam-accou
 ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░▒▓█▓▒░  ░▒▓█▓▒░      ░▒▓█▓▒░   ░▒▓█▓▒░      ░▒▓██████▓▒░
 ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░  ░▒▓█▓▒░      ░▒▓█▓▒░   ░▒▓█▓▒░      ░▒▓█▓▒░
 ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░  ░▒▓█▓▒░      ░▒▓█▓▒░   ░▒▓█▓▒░      ░▒▓█▓▒░
- ░▒▓█████████████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░  ░▒▓█▓▒░      ░▒▓█▓▒░   ░▒▓████████▓▒░▒▓████████▓▒░
+  ░▒▓█████████████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░  ░▒▓█▓▒░      ░▒▓█▓▒░   ░▒▓████████▓▒░▒▓████████▓▒░
 
     A tool to refine big wordlists - because sometimes less is more.
 
