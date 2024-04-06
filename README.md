@@ -63,12 +63,28 @@ options:
                         Path for processed wordlist - prints to stdout by default
   -v, --verbose         Increase output verbosity
 ```
+## Benchmarks
+
+Whittle is designed with speed and efficiency in mind, as it is intended for larger wordlists.
+Computationally inexpensive checks such as password length restrictions are made first, which also happened to be the highest factor of rejection.
+
+Current testing showed effecient processing of [rockyou.txt](https://github.com/praetorian-inc/Hob0Rules/blob/master/wordlists/rockyou.txt.gz), using a system with 64GB DDR4 and a Ryzen 7 2700X:
+
+```
+python whittle.py -w ..\wordlists\rockyou.txt -o .\whittled_rockyou.txt -M 12 -m 6 -v -c
+
+Passwords processed: 14344391/14344391
+Total Passwords Processed: 14344391
+Passwords Accepted: 771797
+Passwords Rejected: 13572594
+Processing Time: 348.05 seconds
+```
 
 # Installation
 
 ### Clone the Whittle repository to your local machine
 
-`git clone https://github.com/yourusername/whittle.git`
+`git clone https://github.com/hzoid/whittle.git`
 
 ### Install Dependencies
 
